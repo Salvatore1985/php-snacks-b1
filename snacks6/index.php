@@ -48,7 +48,6 @@ $db = [
 <body>
     <h1>php-snacks-6</h1>
     <section class="my-flex">
-
         <div class="box gray">
             <h2>Insegnanti</h2>
             <ul>
@@ -58,11 +57,7 @@ $db = [
                         <?php echo $db['teachers'][$i]['name'] . '-' . $db['teachers'][$i]['lastname'] . ';'; ?>
                     </li>
                 <?php } ?>
-
-
-
             </ul>
-
         </div>
         <div class="box green">
             <h2>PM</h2>
@@ -73,9 +68,6 @@ $db = [
                         <?php echo $db['pm'][$i]['name'] . '-' . $db['pm'][$i]['lastname'] . ';'; ?>
                     </li>
                 <?php } ?>
-
-
-
             </ul>
         </div>
     </section>
