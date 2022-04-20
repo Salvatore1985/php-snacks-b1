@@ -31,9 +31,13 @@ while (count($numberRand) < 15) {
 
 <body>
     <h1>php-snacks-4</h1>
-    <pre>
-        <?php echo var_dump($numberRand) ?>
-    </pre>
+    <?php
+    for ($i = 0; $i < count($numberRand); $i++) { ?>
+        <span> <?php echo $numberRand[$i] . '-' ?></span>
+    <?php } ?>
+
+
+
 
 
 </body>
