@@ -50,10 +50,33 @@ $db = [
     <section class="my-flex">
 
         <div class="box gray">
+            <h2>Insegnanti</h2>
+            <ul>
+                <?php
+                for ($i = 0; $i < count($db['teachers']); $i++) { ?>
+                    <li>
+                        <?php echo $db['teachers'][$i]['name'] . '-' . $db['teachers'][$i]['lastname'] . ';'; ?>
+                    </li>
+                <?php } ?>
+
+
+
+            </ul>
 
         </div>
         <div class="box green">
+            <h2>PM</h2>
+            <ul>
+                <?php
+                for ($i = 0; $i < count($db['pm']); $i++) { ?>
+                    <li>
+                        <?php echo $db['pm'][$i]['name'] . '-' . $db['pm'][$i]['lastname'] . ';'; ?>
+                    </li>
+                <?php } ?>
 
+
+
+            </ul>
         </div>
     </section>
 
