@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 252, 252);
+}
+
+h1 {
+    color: rgba(130, 130, 130, 0.33);
+    padding-top: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 12.5px #a7a3a3;
+}
+
+.my-flex {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.box {
+    width: 500px;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.green {
+    background-color: green;
+}
